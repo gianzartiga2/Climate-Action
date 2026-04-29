@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climate Change</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Climate Change home">
+        <span class="brand-mark" aria-hidden="true">CC</span>
+        <span>Climate Action</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#causes">Causes</a></li>
+        <li><a href="#effects">Effects</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#developer">Developer</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <span aria-hidden="true">◐</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">A shared planet. A shared responsibility.</p>
+        <h1 id="hero-title">Climate Change</h1>
+        <p class="hero-subtitle">
+          Climate change is reshaping ecosystems, economies, and daily life. Meaningful action today can protect communities and restore balance for future generations.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">Explore Solutions</a>
+          <a class="btn secondary" href="#causes">Understand Causes</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-band" id="about" aria-labelledby="about-title">
+      <div class="container about-section">
+        <div class="about-content reveal">
+          <p class="eyebrow">The basics</p>
+          <h2 id="about-title">What Is Climate Change?</h2>
+          <p>
+            Climate change is the long-term shift in Earth's temperatures and weather patterns. While natural changes can happen over time, today's rapid warming is mainly caused by human activities that release greenhouse gases into the atmosphere.
+          </p>
+          <p>
+            These gases trap heat, affecting oceans, forests, wildlife, food systems, water supplies, and communities around the world.
+          </p>
+        </div>
+        <div class="about-highlight reveal">
+          <span class="about-number">1.2°C</span>
+          <p>Global temperatures have already risen by about this much compared with pre-industrial levels.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section content-band" id="causes" aria-labelledby="causes-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Why it happens</p>
+          <h2 id="causes-title">Major Causes</h2>
+          <p>Climate change is driven by activities that increase heat-trapping gases in the atmosphere.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="info-card reveal" tabindex="0" role="button" data-topic="fossil-fuels">
+            <div class="icon-badge" aria-hidden="true"><img src="assets/icons/factory.svg" alt=""></div>
+            <h3>Fossil Fuel Use</h3>
+            <p>Burning coal, oil, and gas for electricity, heat, and transport releases large amounts of carbon dioxide.</p>
+          </article>
+          <article class="info-card reveal" tabindex="0" role="button" data-topic="deforestation">
+            <div class="icon-badge" aria-hidden="true"><img src="assets/icons/tree.svg" alt=""></div>
+            <h3>Deforestation</h3>
+            <p>Clearing forests removes natural carbon storage and often releases stored carbon back into the air.</p>
+          </article>
+          <article class="info-card reveal" tabindex="0" role="button" data-topic="transportation">
+            <div class="icon-badge" aria-hidden="true"><img src="assets/icons/car.svg" alt=""></div>
+            <h3>Transportation</h3>
+            <p>Cars, trucks, ships, and planes powered by petroleum contribute heavily to global emissions.</p>
+          </article>
+          <article class="info-card reveal" tabindex="0" role="button" data-topic="agriculture">
+            <div class="icon-badge" aria-hidden="true"><img src="assets/icons/agriculture.svg" alt=""></div>
+            <h3>Agriculture</h3>
+            <p>Livestock, fertilizer use, and rice production can release methane and nitrous oxide.</p>
+          </article>
+          <article class="info-card reveal" tabindex="0" role="button" data-topic="industry">
+            <div class="icon-badge" aria-hidden="true"><img src="assets/icons/industry.svg" alt=""></div>
+            <h3>Industrial Processes</h3>
+            <p>Cement, steel, chemicals, and manufacturing systems consume energy and create process emissions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-band" id="effects" aria-labelledby="effects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">What changes</p>
+          <h2 id="effects-title">Global Effects</h2>
+          <p>Climate impacts are already visible across weather patterns, oceans, food systems, and public health.</p>
+        </div>
+
+        <div class="effects-grid">
+          <article class="effect-card reveal" tabindex="0" role="button" data-topic="rising-temperatures">
+            <h3>Rising Temperatures</h3>
+            <p>Heat waves become more intense, increasing health risks and energy demand.</p>
+          </article>
+          <article class="effect-card reveal" tabindex="0" role="button" data-topic="sea-level-rise">
+            <h3>Sea Level Rise</h3>
+            <p>Melting ice and warming oceans threaten coastal cities, islands, and freshwater supplies.</p>
+          </article>
+          <article class="effect-card reveal" tabindex="0" role="button" data-topic="extreme-weather">
+            <h3>Extreme Weather</h3>
+            <p>Storms, droughts, floods, and wildfires can grow more frequent or damaging.</p>
+          </article>
+          <article class="effect-card reveal" tabindex="0" role="button" data-topic="biodiversity-loss">
+            <h3>Biodiversity Loss</h3>
+            <p>Species and habitats face pressure as temperatures, rainfall, and ocean conditions shift.</p>
+          </article>
+          <article class="effect-card reveal" tabindex="0" role="button" data-topic="food-water-stress">
+            <h3>Food and Water Stress</h3>
+            <p>Crop yields, fisheries, and water availability can become less reliable.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section content-band" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">How we respond</p>
+          <h2 id="projects-title">Mitigation Projects</h2>
+          <p>Targeted projects can cut emissions, strengthen communities, and create healthier places to live.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal" tabindex="0" role="button" data-project="solar">
+            <img src="assets/images/solar.jpg" alt="Solar panels under a clear sky">
+            <div class="project-card-body">
+              <h3>Community Solar Hubs</h3>
+              <p>Shared solar installations that lower emissions and expand clean-energy access.</p>
+              <span class="learn-more">Learn More</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" tabindex="0" role="button" data-project="forests">
+            <img src="assets/images/forest.jpg" alt="Dense green forest canopy">
+            <div class="project-card-body">
+              <h3>Urban Forest Recovery</h3>
+              <p>Tree planting and habitat restoration that cool cities and absorb carbon.</p>
+              <span class="learn-more">Learn More</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" tabindex="0" role="button" data-project="transit">
+            <img src="assets/images/transit.jpg" alt="Modern electric train at a platform">
+            <div class="project-card-body">
+              <h3>Clean Transit Networks</h3>
+              <p>Better buses, rail, bike lanes, and walkable streets to reduce car dependence.</p>
+              <span class="learn-more">Learn More</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" tabindex="0" role="button" data-project="buildings">
+            <img src="assets/images/buildings.jpg" alt="Energy efficient home surrounded by greenery">
+            <div class="project-card-body">
+              <h3>Efficient Buildings</h3>
+              <p>Retrofits that reduce wasted energy while making homes safer and more comfortable.</p>
+              <span class="learn-more">Learn More</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section developer-band" id="developer" aria-labelledby="developer-title">
+      <div class="container developer-section reveal">
+        <figure class="developer-avatar">
+          <img src="assets/images/developer-image.jpg" alt="Developer profile">
+        </figure>
+        <div class="developer-content">
+          <p class="eyebrow">Webpage creator / Researcher</p>
+          <h2 id="developer-title">Hernandez, Ivan B.</h2>
+        </div>
+      </div>
+
+      <div class="container developer-contact reveal" aria-labelledby="developer-contact-title">
+        <p class="eyebrow">Get in touch</p>
+        <h2 id="developer-contact-title">Contact</h2>
+        <div class="contact-list" aria-label="Developer contact information">
+          <div class="contact-card">
+            <span aria-hidden="true"><img src="assets/icons/contact-email.svg" alt=""></span>
+            climateaction@gmail.com
+          </div>
+          <div class="contact-card">
+            <span aria-hidden="true"><img src="assets/icons/contact-phone.svg" alt=""></span>
+            +63 9123456789
+          </div>
+          <div class="contact-card">
+            <span aria-hidden="true"><img src="assets/icons/contact-location.svg" alt=""></span>
+            Catbalogan City, Samar
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div>
+        <h2>Climate Action</h2>
+        <p>Learn the causes, understand the effects, and support practical mitigation projects.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="#causes">Causes</a>
+        <a href="#about">About</a>
+        <a href="#effects">Effects</a>
+        <a href="#projects">Projects</a>
+        <a href="#developer">Developer</a>
+      </nav>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <div class="modal" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-panel" role="document">
+      <button class="modal-close" type="button" aria-label="Close modal" data-close-modal>×</button>
+      <div class="modal-image" id="modal-image" aria-hidden="true"></div>
+      <div class="modal-content">
+        <p class="eyebrow" id="modal-kicker">Mitigation project</p>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <h3>Mitigation Strategies</h3>
+        <ul id="modal-strategies"></ul>
+        <a class="modal-reference" id="modal-reference" href="#" target="_blank" rel="noopener noreferrer">Open reference source</a>
+      </div>
+    </article>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
